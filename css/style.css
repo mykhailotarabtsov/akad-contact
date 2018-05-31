@@ -100,7 +100,7 @@ input:focus, textarea:focus {
 	outline: 1px solid #7beec6;
 	border-color: transparent;
 }
-#formName, #formEmail {
+#formName, #formEmail, .formEmail {
 	width: 47%;
 	margin-bottom: 30px;
 }
@@ -133,6 +133,11 @@ textarea {
 	font-size: 0.875rem;
 	border-radius: 0;
 }
+.btn-inverse {
+	background-color: #fff;
+	color: #7beec6;
+	padding: 0.5em 1.5em;
+}
 .contact_info {
 	margin-top: 90px;
 }
@@ -155,4 +160,34 @@ ul li {
 }
 li.email {
 	font-weight: bold;
+}
+
+.subscribe {
+	background-color: #7beec7;
+	padding: 50px 0;
+}
+.subscribe h1 {
+	font-size: 1.875rem;
+	line-height: 1.6em;
+	color: #fff;
+	margin-top: 0;
+	margin-bottom: 25px;
+}
+.subscribe_email {
+	background-color: #fff;
+	padding: 20px;
+}
+.subscribe .btn_subscribe {
+	padding: 0.79em 3em;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+form {
+	position: relative;
+}
+.formEmail {
+	padding-right: 25%;
+	width: 100%;
+	margin-bottom: 0;
 }
